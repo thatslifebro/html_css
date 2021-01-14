@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dbd vs lol</title>
+    <style>
+      .col{
+        //border: 0px solid red;
+        margin: 20px;
+      }
+      .row{
+        display: grid;
+        grid-template-columns:0.3fr 1fr 1fr;
+
+      }
+      .it{
+        border: 1px solid red;
+        text-align:center;
+      }
+      ol{
+        color:black;
+        font-weight: bold;
+        padding-left:25px;
+      }
+      a{
+        text-decoration:none;
+        color: black;
+      }
+      @media(min-width:800px){
+          #grid{
+            display:grid;
+            grid-template-columns:250px 1fr;
+            border-top:1px solid gray;
+          }
+          ol{
+            display:grid;
+            border-right:1px solid gray;
+          }
+
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>DBD vs LOL</h1>
+    <div id="grid">
+      <ol>
+        <li>
+          <a href="dbd.html">Dead by daylight</a>
+        </li>
+        <li>
+          <a href="lol.html">League of legends</a>
+        </li>
+        <li>
+          <a href="index.html"><u>DBD vs LOL</u></a>
+        </li>
+      </ol>
+
+      <div class="col">
+        <div class="row">
+          <div class="it"></div>
+          <div class="it"><strong>DBD</strong></div>
+          <div class="it"><strong>LOL</strong></div>
+        </div>
+        <div class="row">
+          <div class="it">type</div>
+          <div class="it">fps</div>
+          <div class="it">aos</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
